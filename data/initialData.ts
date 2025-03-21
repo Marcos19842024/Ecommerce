@@ -3,6 +3,7 @@ export const allProducts = [
 		brand: 'Royal Canin',
 		name: 'Starter',
 		id: 1,
+		created_at: new Date().toISOString(),
 		targets: [{
 			target: "dog",
 			type: 'puppy',
@@ -58,6 +59,7 @@ export const recentProducts = [
 		brand: 'Royal Canin',
 		name: 'Starter',
 		id: 1,
+		created_at: new Date().toISOString(),
 		targets: [{
 			target: "dog",
 			type: 'puppy',
@@ -113,6 +115,7 @@ export const popularProducts = [
 		brand: 'Royal Canin',
 		name: 'Starter',
 		id: 1,
+		created_at: new Date().toISOString(),
 		targets: [{
 			target: "dog",
 			type: 'puppy',
